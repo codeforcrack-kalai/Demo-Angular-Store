@@ -174,3 +174,18 @@ input[type="text"], input[type="password"], input[type="url"], input[type="tel"]
 .fieldset > * {
     letter-spacing: normal;
 }
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+        background-size: auto;
+    background-size: 100% 100%;
+    background-color: #df2e31;
+}
+

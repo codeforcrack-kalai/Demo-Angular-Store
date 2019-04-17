@@ -11,6 +11,8 @@
         <li class="entry ">GET STORE APP </li>
           <li class="entry ">ONLINE HELP</li>
             <li class="entry ">RETAIL STORE</li>
+
+            <a [routerLink]="['/login']" routerLinkActive="active">   <li class="entry ">LOGIN</li></a>
   </ul>
 
   </div>
@@ -34,7 +36,7 @@
     <!-- Links -->
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link waves-light" mdbWavesEffect [routerLink]="['/']" routerLinkActive="active">Home<span class="sr-only">(current)</span></a>
       </li>
 
         <li class="nav-item">
@@ -79,6 +81,9 @@
       <li class="nav-item">
         <a class="nav-link waves-light" mdbWavesEffect>Our Products</a>
       </li>
+
+
+
    
 
       <!-- Dropdown -->
